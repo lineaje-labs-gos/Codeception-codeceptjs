@@ -1,6 +1,6 @@
 {
   "name": "codeceptjs",
-  "version": "2.6.11",
+  "version": "2.6.11-lineaje-01",
   "description": "Supercharged End 2 End Testing Framework for NodeJS",
   "keywords": [
     "acceptance",
@@ -17,6 +17,12 @@
   ],
   "homepage": "https://codecept.io",
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "author": {
     "name": "DavertMik",
     "email": "davert@codegyre.com",
@@ -34,7 +40,10 @@
   "bin": {
     "codeceptjs": "./bin/codecept.js"
   },
-  "repository": "Codeception/codeceptjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lineaje-labs-gos/Codeception-codeceptjs"
+  },
   "scripts": {
     "build": "tsc -p ./",
     "json-server": "./node_modules/json-server/bin/index.js test/data/rest/db.json -p 8010 --watch -m test/data/rest/headers.js",
