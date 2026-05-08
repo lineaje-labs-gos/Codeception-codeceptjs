@@ -1,6 +1,6 @@
 {
   "name": "codeceptjs",
-  "version": "2.6.11-lineaje-01",
+  "version": "3.114.0-lineaje-01",
   "description": "Supercharged End 2 End Testing Framework for NodeJS",
   "keywords": [
     "acceptance",
@@ -147,5 +147,11 @@
       "pre-commit": "npm run lint",
       "pre-push": "npm run lint && npm run test:unit"
     }
+  },
+  "overrides": {
+    "linkifyjs": ">=4.3.2"
+  },
+  "resolutions": {
+    "linkifyjs": ">=4.3.2"
   }
 }
